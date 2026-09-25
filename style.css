@@ -6,7 +6,13 @@ body{
     margin:0;
 }
 header{
-    text-align:center;  
+    text-align:center;
+    background-color:lightblue;    
+}
+
+h1{
+    margin:0;
+    
 }
 
 main{
@@ -15,7 +21,23 @@ main{
 }
 .card{
     border:2px solid black;
-    margin:20px;
+    margin-bottom:20px;
+    padding:20px;
+    width:100%;
+    overflow-wrap:break-word;
+}
+
+.card-top{
+    display:flex;
+    align-items:center;
+    gap:20px;  
+}
+
+.card img{
+    width:60%;
+    height:60%;
+    object-fit:cover;
+    border-radius:50%;
 }
 footer{
     margin:40px;
